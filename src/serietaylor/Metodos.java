@@ -18,5 +18,17 @@ public class Metodos {
             resultado *= i;
         }
         return resultado;
-    }    
+    }
+    
+    /**Metodo para calcular el exponente,numero impar 2n-1
+     * @param n variable del exponente
+     * @return el valor del exponente
+     */
+    public int exponente(int n){
+        int operacion=1;
+        for (int i=1; i<=n;i++){
+         operacion= 2*i-1;
+        }
+        return operacion;
+    }
 }
